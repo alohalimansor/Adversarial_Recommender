@@ -52,7 +52,7 @@ This section requires two preliminary steps before running the main attack.
 
 3a. Save TF-IDF Components: Save the trained TF-IDF vectorizer and user profiles for the attack script to use.
 
-Script: 03a_save_tfidf_components.py (Use your save_model_components.py file)
+Script: 03a_save_tfidf_components.py (Use your save_model_components.py)
 
 python 03a_save_tfidf_components.py
 
@@ -67,7 +67,9 @@ This multi-step process executes the data poisoning attack on the deep learning 
 
 4a. Prepare the Attack: Create the poisoned dataset.
 
-Script: 04a_attack_neumf_prep.py (Use your attack_neumf_poisoning.py file, which you have named create_poisoned_dataset.py)
+Script: 04a_attack_neumf_prep.py (Use your attack_neumf_poisoning.py file)
+
+Output: electronics_reviews_poisoned.parquet
 
 python 04a_attack_neumf_prep.py
 
