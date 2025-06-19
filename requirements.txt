@@ -1,0 +1,26 @@
+# requirements.txt
+
+# Core data manipulation and numerical operations
+pandas
+numpy<2.0
+pyarrow # Recommended for reading/writing Parquet files efficiently
+
+# Machine Learning and NLP
+scikit-learn
+nltk
+
+# Adversarial Attack Framework
+textattack
+
+# Explainability
+lime
+
+# Utilities and Notebooks
+jupyter # To run and test code interactively if needed
+tqdm # For progress bars on long-running tasks
+
+scikit-surprise
+tensorflow
+matplotlib
+shap
+
